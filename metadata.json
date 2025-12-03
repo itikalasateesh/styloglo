@@ -1,0 +1,7 @@
+{
+  "name": "GlowUp AI - Ultimate Stylist",
+  "description": "Your AI-powered personal stylist. Analyze your look, edit hairstyles, try virtual outfits, and get weekly fashion plans using Gemini 2.5 Flash.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

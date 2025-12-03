@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- SEO & Metadata -->
+    <title>StyloGlo - AI Personal Stylist & Fashion Advisor</title>
+    <meta name="description" content="Transform your look with StyloGlo. AI-powered hairstyle recommendations, outfit planning based on skin tone, and virtual try-ons. Elevate your style today." />
+    <meta name="keywords" content="AI stylist, virtual makeover, hairstyle changer, outfit planner, skin tone analysis, fashion app, men's style, women's fashion" />
+    <meta name="author" content="StyloGlo AI" />
+    
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://styloglo.ai/" />
+    <meta property="og:title" content="StyloGlo - Elevate Your Style with AI" />
+    <meta property="og:description" content="Discover your perfect look. Scan your face to get personalized fashion, hair, and accessory recommendations." />
+    <meta property="og:image" content="https://styloglo.ai/social-preview.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://styloglo.ai/" />
+    <meta property="twitter:title" content="StyloGlo - AI Personal Stylist" />
+    <meta property="twitter:description" content="Your personal AI fashion consultant. Try new looks instantly." />
+    <meta property="twitter:image" content="https://styloglo.ai/social-preview.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700;900&display=swap');
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-stone-50 text-stone-900 antialiased overflow-x-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
