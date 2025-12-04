@@ -1,0 +1,22 @@
+# Ignore dotfiles and dotdirectories (except .dockerignore itself)
+.git
+.gitignore
+.env
+.DS_Store
+.vscode/
+
+# Ignore Node.js specific files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json # if you use yarn, you might ignore yarn.lock
+yarn.lock
+
+# Ignore build artifacts that are not intended for the final image
+# This is typically already handled by the multi-stage build,
+# but can be useful if not using multi-stage or for intermediate steps.
+dist/
+build/
+
+# Ignore personal configuration files
+config.local.js
